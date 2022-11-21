@@ -1,0 +1,51 @@
+.register {
+
+    margin: 30px 50px;
+
+    .error-message {
+        color: red;
+    }
+
+    span {
+        font-weight: 600;
+        color: rgb(116, 113, 113);
+    }
+
+    input {
+        margin: 10px 0;
+        border: solid 3px rgb(231, 231, 231);
+    }
+
+    p, h1, h2, h3, h4, h5, h6, ul, li {
+        margin: 0;
+        padding: 0;
+    }
+}
+
+.list {
+    margin: 20px 0;
+}
+
+.list-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    border: solid 2px rgb(231, 231, 231);
+    border-radius: 3px;
+    padding: 5px;
+    margin: 10px 0;
+}
+
+.item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-self: center;
+    width: 40%;
+}
+
+.btn-item {
+    display: flex; 
+    flex-direction: row;
+}

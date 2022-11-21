@@ -1,0 +1,27 @@
+.signin {
+    
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  .signin-form {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      form {
+        padding: 30%;
+      }
+  }
+
+  .signin-cover {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #EAEAEA;
+  }
+}
